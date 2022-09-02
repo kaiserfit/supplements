@@ -75,6 +75,7 @@ document.getElementById("cartCount").textContent = cartObj.length;
       alert("Product Added to Cart");
      $(this).html("Add to Cart");
      ttq.track('AddToCart');
+analytics.track("Product Added")
      // $(this).prop('disabled', true);
       $(this).nextAll(".view-cart").show();
          });
