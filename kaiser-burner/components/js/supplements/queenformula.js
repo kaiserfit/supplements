@@ -73,9 +73,7 @@ document.getElementById("cartCount").textContent = cartObj.length;
          updateCart(sku, bot, src, price, desc, ship); 
       }
       ttq.track('AddToCart');
-analytics.track("Product Added", {
-test_event_code: 'TEST72329'
-})
+analytics.track("Product Added")
       alert("Product Added to Cart");
      $(this).html("Add to Cart");
      // $(this).prop('disabled', true);
