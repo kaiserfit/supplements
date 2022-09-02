@@ -1,0 +1,139 @@
+body {
+  font-family: 'Open Sans', sans-serif; 
+  background-image: url("../img_assets/login-mobile.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-color: rgb(255, 255, 255);
+   background-position: left;
+    
+}
+
+#mcon {
+    padding: 10px 20px;
+   
+}
+
+#mcon h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 14px;
+    color: #fff;
+}
+
+#mcon #loginBox {
+    width: 40%;
+    background-color: #fff;
+    background-attachment: scroll;
+    font-size: 15px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 25px 25px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 6px;
+}
+
+#mcon #loginBox #loginForm #btnLogin {
+    background-color: rgb(7, 144, 232);
+    border-radius: 3px;
+    padding: 8px 15px;
+    background-image: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#mcon #loginBox #loginForm label {
+   color: rgb(51, 51, 51);
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 15px;
+}
+
+#mcon #loginBox .text-muted {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.input-lg {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    #mcon #loginBox {
+        width: 100%;
+    }
+
+    #mcon #loginBox {
+      padding: 10px;
+    }
+
+    #mcon h2 {
+     
+      font-size: 24px;
+      
+      line-height: 20px;
+     
+  }
+}
+
+ /* ELLIPSIS LOADER */
+
+ .lds-ellipsis {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    margin: auto;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 13px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }

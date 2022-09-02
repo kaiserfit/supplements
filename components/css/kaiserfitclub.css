@@ -1,0 +1,156 @@
+#kcClub {
+margin-top: 20px;
+border: 1px solid #d4d4d4;
+
+margin-bottom: 20px;
+}
+#months {
+    position: relative;
+}
+.monthly {
+    padding: 14px;
+    text-align: center;
+    display: none;
+    position: relative;
+    right: -200px;
+}
+
+.cooking-videos, .workout-videos {
+    display: none;
+    position: relative;
+    right: -200px;
+}
+
+
+.cooking-videos .row .col-md-4 {
+   
+    
+    padding: 10px;
+   
+    
+}
+
+.vid-cook {
+  
+    text-align: center;
+cursor: pointer;
+background-color: #161616;
+color: #C8C8C8;
+height: 200px;
+width: 100%;
+font-size: 5em;
+background-image: url("../img_assets/4800.svg");
+background-size: 3.8em;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.vid-workout {
+  
+    text-align: center;
+cursor: pointer;
+background-color: #161616;
+color: #C8C8C8;
+height: 400px;
+width: 60%;
+font-size: 5em;
+background-image: url("../img_assets/Workout.svg");
+background-size: 5em;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.vid-cook i, .vid-workout i {
+    font-size:1.4em;
+    color:red;
+    margin: 0;
+    
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.cooking-videos .row .col-md-4 p {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 14px;
+    
+}
+
+.workout-videos p {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 14px;
+    
+}
+#vFrame {
+box-sizing: content-box;
+}
+#measureBox {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+}
+
+#videoBody {
+    width: 100%;
+}
+
+#food {
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.monthly-title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #000;
+}
+
+.back-to-months, .back-to-month-content {
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.1s ease;
+}
+
+.back-to-months:hover, .back-to-month-content:hover {
+    color: #c90202;
+}
+#months .row .col-md-4 {
+    padding: 14px;
+    text-align: center;
+}
+/* #months .row .col-md-4:hover {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+} */
+#months .month-button {
+    color: #fff;
+    padding: 70px 100px;
+    font-weight: 900;
+    background-color: #00a2e8;
+}
+#monthNum {
+    color: #c90202;
+    font-weight: 700;
+    text-align: center;
+}
+
+.purple-fade {
+    cursor: pointer;
+}
+.purple-fade:hover {
+    box-shadow: 0 10px 40px #7c009e;
+}
+@media (min-width: 280px) and (max-width: 991px) {
+    .download {
+        margin-bottom: 16px;
+    }
+
+    .vid-workout {
+        width: 100%;
+    }
+}

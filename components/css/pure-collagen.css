@@ -1,0 +1,637 @@
+body {
+    background-color: #d9d9d9;
+}
+#overviewQf {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color:  white;
+   
+}
+
+#overviewQf .col-md-4 {
+text-align: center;
+}
+
+#overviewQf  #mainProduct img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    #overviewQf  #mainProduct #p-details-main {
+        padding: 20px;
+
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details {
+        cursor: pointer;
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(1) {
+        background-image:url("../img-products/collagen/1-bottle.webp");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(2) {
+        background-image:url("../img-products/collagen/catalog.webp");
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(3) {
+        /* background-image:url("../img_assets/product_details/Nitric-Shock-Fruit-Punch.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; */
+        transition: 0.3s ease;
+       
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details:hover {
+        background-color: #7f7f7f;
+        background-blend-mode: soft-light;
+    }
+
+   
+    /* #overviewQf  #mainProduct:nth-child(1) #p-details-main:nth-child(2) .p-details {
+        background-image:url("../img_assets/product_details/qf-2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     */
+    #overviewQf  #mainProduct .p-details img {
+        opacity: 0;
+         cursor: pointer;
+       
+       /* transition: 0.3s ease; */
+      
+              }
+            
+    /* #overviewQf  #mainProduct .p-details img:hover {
+        background-color: #000;
+        opacity: .5;
+        background-blend-mode: overlay;
+        } */
+
+        #overviewQf .col-md-8 .star-rated img {
+            position: relative;
+            top: -3px;
+            height: 15px;
+            width: 15px;
+            display: inline;
+            
+        }
+ #overviewQf .col-md-8 .star-rated {
+     margin-bottom: 0px;
+     font-size: 14px;
+    font-weight: 400;
+    /* line-height: 22.5px; */
+    color: #000;
+ }
+ #overviewQf .col-md-8 h2{
+     margin-top: 0px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+ }
+ #overviewQf .col-md-8 p .crosstext{
+    color: inherit;
+   font-size: 22px;
+   text-decoration: line-through;
+   
+}
+ #overviewQf .col-md-8 p .price {
+    
+   font-size: 30px;
+   color: red;
+   
+}
+#overviewQf .col-md-8 ul li{
+    color: #04d130;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+#overviewQf .col-md-8 .product-description{
+font-size: 20px;
+line-height: 30px;
+}
+
+#scrollToProduct {
+    background-color: #ce0000;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+
+
+#section2 {
+    
+    background-image: url("../img_assets/suppPics/Untitled-3-copy.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* background-blend-mode: overlay; */
+   padding: 0px;
+   font-family: 'Racing Sans One', cursive;
+   /* opacity: .40; */
+   text-transform: uppercase;
+  position: relative;
+   
+}
+#section2 #sectionOverlay {
+  
+    background-color: #ffffffa6;;
+    opacity: .23;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+  
+}
+#section2 h1 {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 80px;
+    opacity: 1;
+    color: #ceff00;;
+    -webkit-text-stroke: 3px #000000;
+}
+
+#section2 #textOverlay {
+    /* display: flex; */
+   
+    opacity: 1;
+    position: relative;
+   
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 50px;
+   padding-bottom: 0px;
+   
+}
+
+#section2 h2 {
+    font-size: 46px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: .8em;
+   
+    color: #000000;
+    /* float: right; */
+}
+
+#section3 {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+#section3 h2 {
+    color: #000;
+font-size: 25px;
+font-weight: 900;
+line-height: 1;
+text-align: center;
+margin-bottom: 14px;
+}
+
+#section3 ul li {
+    color: #000;
+    font-size: 19px;
+    line-height: 28.5px;
+    font-weight: 500;
+    list-style: none;
+    padding-left: 7px;
+    margin-top: 10px;
+}
+
+#section3 ul li::before {
+    content:"\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+    margin-left: -18px;
+    color: #3e3f00;;
+}
+
+
+
+#section4 {
+    
+    background-image: url("../img_assets/suppPics/collagen-section4.webp");
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+  
+   padding: 60px 28%;
+  
+    position: relative;
+    text-align: center;
+   
+}
+
+#section4 h2 {
+    color: #fff;
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 1;
+    
+}
+
+
+#section5 {
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 150px;
+}
+
+#section5 h2 {
+    font-size: 31px;
+    color: #000;
+    line-height: 1;
+    font-weight: 900;
+}
+
+#section5 p {
+    font-size: 20px;
+    
+    line-height: 1;
+    font-weight: 500;
+}
+
+#section5 .row {
+    margin-top: 50px;
+    display: table;
+    
+}
+#section5 .row .col-md-3 {
+
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#section5 .row .col-md-3:nth-child(1)  {
+    border-left: 5px solid #d0c000;
+    border-right: 2.5px solid #d0c000;
+}
+#section5 .row .col-md-3:nth-child(2)  {
+    border-left: 2.5px solid #d0c000;
+    border-right: 2.5px solid #d0c000;
+}
+#section5 .row .col-md-3:nth-child(3)  {
+    border-left: 2.5px solid #d0c000;
+    border-right: 2.5px solid #d0c000;
+}
+#section5 .row .col-md-3:nth-child(4)  {
+    border-left: 2.5px solid #d0c000;
+    border-right: 5px solid #d0c000;
+}
+
+#section5 .col-md-3 p {
+    margin-top: 24px;
+}
+
+
+#section6 {
+    
+    background-image: url("../img_assets/resized/Colala.webp");
+    background-size: cover;
+    background-position: center center;
+ background-attachment: fixed;
+  
+   padding: 30px 50px;
+  
+    position: relative;
+    
+   
+}
+
+#section6 h2 {
+    font-size: 31px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 900;
+    text-align: center;
+}
+
+#section6 p, #section6 ul li {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 500;
+}
+
+#section6 .col-md-6 p {
+margin-top: 20px;
+
+}
+
+#section6 .col-md-6 ul li {
+    margin-top: 20px;
+    
+    }
+
+
+#section7 {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+
+#section7 h2 {
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 900;
+    color: #000;
+}
+
+#section7 p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+
+
+#section7 .row .col-md-3 {
+    padding: 14px;
+    
+}
+
+#section7 .row .col-md-4 {
+
+    padding: 30px 50px;
+}
+
+#section7 .col-md-3 .col-wrap {
+    padding: 8px;
+    border: 5px solid #d0c000;
+    height: 440px;
+}
+
+#section7 .col-md-4 .col-wrap {
+    padding: 8px;
+    border: 5px solid #d0c000;
+    height: 340px;
+}
+
+#section8 {
+    
+    background-image: url("../img_assets/resized/section_8.webp");
+    background-size: cover;
+    background-position: center center;
+ background-attachment: fixed;
+  
+   padding: 30px 50px;
+  
+    position: relative;
+    
+   
+}
+
+#section8 #s8 h2 {
+    font-size: 31px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 900;
+    text-align: center;
+}
+
+#section8 #s8 {
+    width: 46%;
+}
+#section8 #s8 p {
+    margin-top: 20px;
+font-size: 20px;
+line-height: 1;
+letter-spacing: 1px;
+font-weight: 500;
+color: #fff;
+text-align: center;
+
+}
+
+#section9 {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+#section9 .col-md-6 h2 {
+    line-height: 35px;
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#section9 .col-md-6 p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 24px;
+margin-bottom: 24px;
+}
+
+#section9 .row .col-md-4 {
+    padding: 20px;
+}
+
+#section9 .row .col-md-4 p {
+    margin-bottom: .9rem;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#section9 .row:nth-child(2) .col-md-4 .col-wrapper {
+    padding: 10px;
+    border: 5px dotted #d0c000;
+    height: 616px;
+}
+
+#section9 .row:nth-child(3) .col-md-4 .col-wrapper {
+    padding: 10px;
+    border: 5px dotted #d0c000;
+    height: 553px;
+}
+
+#section9 .row:nth-child(4) .col-md-6 {
+    padding: 20px;
+}
+#section9 .row:nth-child(4) .col-md-6 .col-wrapper {
+    padding: 10px;
+    border: 5px dotted #d0c000;
+}
+
+#section9 .row:nth-child(4) .col-md-6 .col-wrapper p {
+    margin-bottom: .9rem;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+#section10 {
+    
+    background-image: url("../img_assets/suppPics/section10.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* background-blend-mode: overlay; */
+   padding: 0px;
+   
+   /* opacity: .40; */
+  
+  position: relative;
+   
+}
+#section10 #sectionOverlay {
+  
+    background-color: #d0c00038;;
+    opacity: .5;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+    
+  
+}
+#section10 h2 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+   
+}
+
+#section10 p {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    color: #000;
+}
+
+#section10 #textOverlay {
+    /* display: flex; */
+   padding-bottom: 30px;
+    opacity: 1;
+    position: relative;
+   
+     
+}
+
+
+
+
+
+
+#section13 {
+    background-color: white;
+    text-align: center;
+}
+
+#section13 .container .row .col-md-4 {
+    padding: 20px;
+}
+#section13 .container .row .col-md-4 .pContainer {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    height: 520px;
+}
+
+/* #section13 .container .row .col-md-4:nth-child(1) .pContainer img {
+  height: 308px;
+  width: 248px;
+  margin: 0 auto;
+  
+    
+} */
+
+
+#section13 .container .row .col-md-4 .pContainer h2 {
+    font-size: 20px;
+    font-weight: 500;
+     line-height: 24px;
+     color: #000;
+}
+
+#section13 .container .row .col-md-4 .pContainer p {
+    font-size: 18px;
+    font-weight: 400;
+     line-height: 27px;
+     color: red;
+}
+
+#section13 .container .row .col-md-4 .pContainer .atc {
+    color: #fff;
+    background-color: #a70000;
+    font-size: 20px;
+    margin-top: 1em;
+    padding: .618em 1em;
+    font-weight: 700;
+
+}
+.collagen-wrap {
+    padding-top: 5rem;
+}
+.pDetails {
+    position:absolute;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+#section13 #mbGuarantee {
+    border-radius: 5px;
+    border: 5px solid #cda87a;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(85,7,180,1) 100%);
+}
+
+#section13 #mbGuarantee h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    
+    color: white;
+}
+#section13 #mbGuarantee p {
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 700;
+    color: #cda87a;
+}
+
+#section13 .col-md-8 {
+    padding: 30px;
+}
+#section13 .col-md-8 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  
+}

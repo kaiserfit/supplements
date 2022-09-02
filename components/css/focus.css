@@ -1,0 +1,745 @@
+body {
+    background-color: #d9d9d9;
+}
+#overviewQf {
+    border: 1px solid #61a0ec;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:  white;
+}
+
+#overviewQf .col-md-4 {
+text-align: center;
+}
+
+#overviewQf  #mainProduct img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    #overviewQf  #mainProduct #p-details-main {
+        padding: 20px;
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details {
+        cursor: pointer;
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(1) {
+        background-image:url("../img-products/neuro/1-bottle.webp");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(2) {
+        background-image:url("../img-products/neuro/catalog.webp");
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(3) {
+        background-image:url("../img_assets/product_details/focus2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details:hover {
+        background-color: #7f7f7f;
+        background-blend-mode: soft-light;
+    }
+
+   
+    /* #overviewQf  #mainProduct:nth-child(1) #p-details-main:nth-child(2) .p-details {
+        background-image:url("../img_assets/product_details/qf-2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     */
+    #overviewQf  #mainProduct .p-details img {
+        opacity: 0;
+         cursor: pointer;
+       
+       /* transition: 0.3s ease; */
+      
+              }
+            
+    /* #overviewQf  #mainProduct .p-details img:hover {
+        background-color: #000;
+        opacity: .5;
+        background-blend-mode: overlay;
+        } */
+
+        #overviewQf .col-md-8 .star-rated img {
+            position: relative;
+            top: -3px;
+            height: 15px;
+            width: 15px;
+            display: inline;
+            
+        }
+ #overviewQf .col-md-8 .star-rated {
+     margin-bottom: 0px;
+     font-size: 14px;
+    font-weight: 400;
+    /* line-height: 22.5px; */
+    color: #000;
+ }
+ #overviewQf .col-md-8 h2{
+     margin-top: 0px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+ }
+ #overviewQf .col-md-8 p .crosstext{
+    color: inherit;
+   font-size: 22px;
+   text-decoration: line-through;
+   
+}
+ #overviewQf .col-md-8 p .price {
+    
+   font-size: 30px;
+   color: red;
+   
+}
+#overviewQf .col-md-8 ul li{
+    color: #04d130;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+#overviewQf .col-md-8 .product-description{
+font-size: 20px;
+line-height: 30px;
+}
+
+#scrollToProduct {
+    background-color: #ce0000;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+
+#section2 {
+    
+    background-image: url("../img_assets/resized/focus-section2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* background-blend-mode: overlay; */
+   padding: 0px;
+   font-family: 'Racing Sans One', cursive;
+   /* opacity: .40; */
+   text-transform: uppercase;
+  position: relative;
+   
+}
+#section2 #sectionOverlay {
+  
+    background-color: #22664f;
+    opacity: .23;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+  
+}
+#section2 h1 {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 80px;
+    opacity: 1;
+    color: #38ecaf;
+    -webkit-text-stroke: 3px #0b1f38;
+}
+
+#textOverlay {
+    /* display: flex; */
+   
+    opacity: 1;
+    position: relative;
+   
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+
+#section2 h2 {
+    opacity: 1;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #7adab9;
+    float: right;
+    -webkit-text-stroke: 1.5px #0b1f38;
+}
+
+#section3 {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#section3 h2 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+}
+
+#section3 ul li {
+    margin-top: 14px;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    list-style: none;
+}
+
+#section3 ul li::before {
+    content:"\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+    margin-left: -18px;
+    color: #008b3f;
+}
+
+#section4 {
+    
+    background-image: url("../img_assets/resized/focus-section4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+   padding: 0px;
+  
+  position: relative;
+   
+}
+#section4 #section4Overlay {
+  
+    background-color:#000e09;
+    opacity: .1;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+  
+}
+
+#section4 #text4Overlay {
+    /* display: flex; */
+   
+    opacity: 1;
+    position: relative;
+   
+
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+#section4 #text4Overlay #s4c1 h2 {
+   text-align: center;
+    color: #fff;
+    font-size: 31px;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    line-height: 1;
+    margin-top: 50px;
+}
+
+
+#s4title {
+    border: 4px solid #6398d8;
+    padding-top: 20px;
+}
+
+#s4title2 {
+    background-color: #aec627;
+    padding: 10px;
+   
+}
+
+#s4title2 h1 { 
+    font-size: 31px;
+    color: #000;
+    font-weight: 900;
+    line-height: 31px;
+    text-align: center;
+}
+#s4title h1 {
+    font-size: 31px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 31px;
+    text-align: center;
+}
+#s4c1 #pHolder {
+    padding: 20px;
+}
+#s4c1 p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+}
+
+#s4c2 p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+}
+
+#section5 {
+    background-color: white;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+#section5 h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    
+    line-height: 1.3em;
+    
+}
+
+#section5 hr {
+    border: 1px solid #38ecaf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section5 p {
+    text-align: center;
+    color: #000;
+    
+    font-size: 19px;
+
+}
+
+#section5 .col-md-6 p {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+#section5 .col-md-6 h2 {
+    color: #000;
+font-size: 20px;
+font-weight: 900;
+line-height: 1.4em;
+}
+
+
+
+#section6 {
+    background-color: #020437;
+    padding: 20px 100px;
+}
+
+#section6 h1 {
+    font-size: 34px;
+    color: #fff;
+    line-height: 49.5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#section7 {
+    
+    background-image: url("../img_assets/resized/section6bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+  
+    padding-top: 0px;
+  
+  position: relative;
+   
+}
+#section7 #section7Overlay {
+  
+    background-color:#000e09;
+    opacity: .1;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+  
+}
+
+#section7 #text7Overlay {
+
+   padding: 50px;   
+}
+/* #section7 #text7Overlay #s7c {
+
+    width: 80%;    
+} */
+#section7 #text7Overlay #s7c h2{
+    color: #fff;
+font-size: 31px;
+font-weight: 900;
+text-align: center;
+line-height: 1;
+}
+
+#s7Title {
+    padding: 50px;
+}
+
+#section7 .row {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+#section7 .col-md-9 {
+    padding-top: 5%;
+}
+
+#section7 .col-md-9.nudge-left .col-text {
+   
+   padding-left: 0px;
+   display: inline-block;
+}
+
+#section7 .col-md-9.nudge-right .col-text {
+   
+    padding-right: 0px;
+    display: inline-block;
+ }
+#section7 p {
+    color: #fff;
+text-align: center;
+position: relative;
+left: 0;
+font-size: 20px;
+line-height: 1;
+font-weight: 500;
+}
+
+
+
+#section8 {
+
+    background-color: white;
+    padding: 0px 100px 100px 100px;
+}
+
+
+
+
+
+
+#section8 h2 {
+    color: #000;
+font-size: 38px;
+font-weight: 900;
+text-align: center;
+line-height: 1;
+
+}
+
+#section8 hr {
+    border: 1px solid #38ecaf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section8 p {
+    color:  #000101;
+    font-size: 20px; 
+    margin-top: 24px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+
+
+
+#section9 {
+    
+    background-image: url("../img_assets/resized/focus-section9.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+  
+    padding-top: 0px;
+  
+  position: relative;
+   
+}
+#section9 #section9Overlay {
+  
+    background-color:#000e09;
+    opacity: .1;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+  
+}
+
+#section9 #text9Overlay {
+
+   padding: 50px;   
+}
+/* #section7 #text7Overlay #s7c {
+
+    width: 80%;    
+} */
+#section9 #text9Overlay #s9c h2{
+    color: #fff;
+font-size: 31px;
+font-weight: 900;
+text-align: center;
+line-height: 1;
+}
+
+#s9Title {
+    padding: 50px;
+}
+
+#section9 .row {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+#section9 .col-md-9 {
+    padding-top: 3%;
+}
+
+#section9 .col-md-9.nudge-left .col-text {
+   
+   padding-left: 0px;
+   display: inline-block;
+}
+
+#section9 .col-md-9.nudge-right .col-text {
+   
+    padding-right: 0px;
+    display: inline-block;
+ }
+#section9 p {
+    color: #fff;
+text-align: center;
+position: relative;
+left: 0;
+font-size: 20px;
+line-height: 1;
+font-weight: 500;
+}
+
+
+#section9 ul li {
+   
+    list-style: none;
+}
+#section9 ul li::before {
+    content:"\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+    margin-left: -18px;
+    color: #fff;
+}
+
+#section9 ul li p {
+    text-align: left;
+}
+
+
+
+
+#section10 {
+    background-color: white;
+    padding: 30px 100px;
+}
+
+#section10 h2 {
+    color: #000;
+font-size: 38px;
+font-weight: 900;
+line-height: 1;
+text-align: center;
+}
+
+#section10 hr {
+    border: 1px solid #38ecaf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section10 .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section10 .col-md-3 p {
+    font-size: 24px;
+line-height: 24px;
+font-weight: 500;
+text-align: center;
+}
+
+#section10 h3 {
+    color: #26a57a;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+#section11 {
+    
+    background-image: url("../img_assets/resized/Brainbluecopy.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+  
+    padding: 0px;
+  
+  position: relative;
+   
+}
+#section11 #section11Overlay {
+  
+    background-color:#000e09;
+    opacity: .1;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+    mix-blend-mode: darken;
+  
+}
+
+#section11 #text11Overlay {
+    opacity: 1;
+    padding-top: 100px;    
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#s11c {
+    /* width: 56%; */
+    opacity: 1;
+}
+
+
+
+#s11c h2{
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    text-align: center;
+    color: #8ff4d2;
+    
+}
+
+#s11c p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+
+#section13 {
+    background-color: white;
+    text-align: center;
+}
+
+#section13 .container .row .col-md-4 {
+    padding: 20px;
+}
+#section13 .container .row .col-md-4 .pContainer {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    height: 520px;
+}
+
+/* #section13 .container .row .col-md-4:nth-child(3) .pContainer .pDetails {
+  margin-top: 92px;
+  
+    
+} */
+
+#section13 .container .row .col-md-4 .pContainer h2 {
+    font-size: 20px;
+    font-weight: 500;
+     line-height: 24px;
+     color: #000;
+}
+
+#section13 .container .row .col-md-4 .pContainer p {
+    font-size: 18px;
+    font-weight: 400;
+     line-height: 27px;
+     color: red;
+}
+
+#section13 .container .row .col-md-4 .pContainer .atc {
+    color: #fff;
+    background-color: #a70000;
+    font-size: 20px;
+    margin-top: 1em;
+    padding: .618em 1em;
+    font-weight: 700;
+
+}
+
+#section13 #mbGuarantee {
+    border-radius: 5px;
+    border: 5px solid #cda87a;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(85,7,180,1) 100%);
+}
+
+#section13 #mbGuarantee h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    
+    color: white;
+}
+#section13 #mbGuarantee p {
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 700;
+    color: #cda87a;
+}
+
+#section13 .col-md-8 {
+    padding: 30px;
+}
+#section13 .col-md-8 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  
+}

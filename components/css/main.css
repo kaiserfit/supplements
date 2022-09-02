@@ -1,0 +1,68 @@
+body {
+
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.navbar-brand img {
+    position: relative;
+    top: -12px;
+}
+
+#loadd {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('https://acegif.com/wp-content/uploads/loading-37.gif')
+    50% 50%
+    no-repeat;
+}
+body.loading {
+    overflow: hidden;
+}
+body.loading #loadd {
+    display: block;
+}
+
+#main-content {
+    margin-top: 50px;
+}
+
+
+
+#tbl_customers {
+    display: none;
+}
+#tbl_c tbody tr:hover {
+background-color: lightgrey;
+}
+#tbl_payments {
+    display: none;
+}
+
+.payment-refund {
+
+    cursor: pointer;
+}
+#customerId {
+    font-weight: 600;
+}
+
+#cModalBox {
+    width: 70%;
+    
+}
+
+#homeP {
+    margin-top: 100px;
+    text-align: center;
+    display: none;
+}
+
+#homeP img {
+    margin: 0 auto;
+}

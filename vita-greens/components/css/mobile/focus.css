@@ -1,0 +1,239 @@
+@media (min-width: 260px) and (max-width: 991px) {
+
+    #overviewQf  #mainProduct #p-details-main {
+        display: none;
+
+    }
+
+    #section2 #textOverlay {
+        padding: 50px 0px;
+    }
+   
+    #section2 #textOverlay h1{
+        font-size: 45px;
+        line-height: 36px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #section2 #textOverlay h2{
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 400;
+        text-align: center;
+        float: none;
+    }
+
+
+    #section3 h2 {
+      
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    #section3 ul {
+        padding: 0;
+    }
+    #section3 ul li {
+       
+        font-size: 15px;
+        line-height: 18px;
+      
+       
+    }
+
+    #section4 #text4Overlay #s4c1 {
+        width: 100%;
+    }
+    #section4 #text4Overlay #s4c1 h2 {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+
+      
+
+     
+        #s4c1 p {     
+            font-size: 17px;
+            line-height: 1;
+        }
+
+   
+
+
+
+        #section5 {
+          
+            padding: 30px 10px;
+           
+        }
+
+        #section5 h4 {
+          
+            font-size: 21px;
+            line-height: 27px;
+           
+            
+        }
+
+
+   
+  
+
+    #section6 {
+      padding: 20px 0px;
+           
+        }
+
+        #section6 h1 {
+            
+            font-size: 17px;
+            line-height: 25.5px;
+            font-weight: 700;
+           
+        }
+
+        #text7Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+        #text8Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+        #text9Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+        #section7 #text7Overlay #s7c h2{
+            font-size: 21px;
+
+        }
+
+        #section7 #text7Overlay #s7c {
+            width: 100%;
+
+        }
+
+
+   
+        #s7Title {
+            padding: 0px;
+        }
+        #section7 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+
+        #section8 {
+
+        padding: 20px;
+        }
+        #section8 #s8c {
+            
+        top: 0px;
+        }
+
+        #section8 h2 {
+            
+           font-size: 21px;
+            }
+        #section8 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+        #section9 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+
+        #section9 #text9Overlay {
+
+            padding: 30px 10px;   
+         }
+
+         #section9 #text9Overlay #s9c h2{
+           
+        font-size: 21px;
+      
+        }
+
+        #section7 .col-md-8 {
+            padding-right: 10px;
+        }
+        #section8 .col-md-8 {
+            padding-left: 10px;
+        }
+        #section9 .col-md-8 {
+            padding-right: 10px;
+        }
+
+        #section10 {
+            padding: 0px;
+        }
+        #section10 #s10 h2 {
+           
+            font-size: 25px;
+            font-weight: 900;
+           line-height: 1;
+        }
+
+        #section10 h3 {
+          
+            font-size: 19px;
+           
+        }
+
+        #section10 #s10 .col-md-7 h1 {
+            font-size: 20px;
+            line-height: 30px;
+           
+        }
+
+        #section10 #s10 .col-md-5 {
+            padding-top: 50px;
+    }
+    #s11c {
+        width: 100%;
+      
+    }
+    #s11title h1 {
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 500;
+       
+        
+    }
+
+    #s11c #p11 {
+        padding: 10px;
+    }
+    #s11c p {
+      
+        font-size: 16px;
+       
+        line-height: 1.4em;
+    }
+
+    #s11c h2{
+        font-size: 21px;
+    
+        
+    }
+
+    #s11title2 h1 { 
+        font-size: 16px;
+      
+        line-height: 1;
+      
+    }
+         
+    
+   
+           
+            #section13 .container .row .col-md-4 .pContainer {
+               
+                height: auto;
+            }
+   
+}

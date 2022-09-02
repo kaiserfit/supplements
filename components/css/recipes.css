@@ -1,0 +1,71 @@
+#myRecipes {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 14px;
+    text-align: center;
+    position: relative;
+}
+
+
+#recipe-container {
+    padding: 14px;
+}
+
+#recipe-container .row {
+    margin-bottom: 40px;
+}
+
+#recipe-container .row .col-xs-6.col-sm-6 {
+    padding: 14px;
+}
+
+
+#recipe-container .col-xs-6.col-sm-6 img {
+    height: 120px;
+    width: 100%;
+}
+
+#kaiserfit-cookbooks {
+    display: none;
+    position: relative;
+    padding: 24px 10px;
+    right: -200px;
+    text-align: center;
+}
+
+#kaiserfit-cookbooks a {
+    margin-bottom: 14px;
+    padding: 10px 20px;
+
+}
+
+#kaiserfit-cookbooks ul {
+  
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#kaiserfit-cookbooks ul li {
+  
+   padding-left: 20px;
+    text-align: left;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+#kaiserfit-cookbooks ul li .fa-book{
+    color: #dc143c;
+    font-size: 2em;
+    margin-left: 20px;
+ }
+
+ #kaiserfit-cookbooks ul li .fa-book-open{
+    color: #00ff7f;
+    font-size: 2em;
+    margin-left: 20px;
+ }
+
+
+
+
+

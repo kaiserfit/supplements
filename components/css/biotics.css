@@ -1,0 +1,683 @@
+body {
+    background-color: #fff;
+    
+}
+
+#section1 {
+    background-image: linear-gradient(#e6e4e4, #fff);
+}
+#overviewQf {
+    border: 1px solid #f36200;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:  white;
+}
+
+#overviewQf .col-md-4 {
+text-align: center;
+}
+
+#overviewQf  #mainProduct img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    #overviewQf  #mainProduct #p-details-main {
+        padding: 20px;
+
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details {
+        cursor: pointer;
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(1) {
+        background-image:url("../img-products/restore/1-bottle.webp");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(2) {
+        background-image:url("../img-products/restore/catalog.webp");
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(3) {
+        background-image:url("../img_assets/product_details/Probiotic-40-Billion-CFU-816-V6R0.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details:hover {
+        background-color: #7f7f7f;
+        background-blend-mode: soft-light;
+    }
+
+   
+    /* #overviewQf  #mainProduct:nth-child(1) #p-details-main:nth-child(2) .p-details {
+        background-image:url("../img_assets/product_details/qf-2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     */
+    #overviewQf  #mainProduct .p-details img {
+        opacity: 0;
+         cursor: pointer;
+       
+       /* transition: 0.3s ease; */
+      
+              }
+            
+    /* #overviewQf  #mainProduct .p-details img:hover {
+        background-color: #000;
+        opacity: .5;
+        background-blend-mode: overlay;
+        } */
+
+        #overviewQf .col-md-8 .star-rated img {
+            position: relative;
+            top: -3px;
+            height: 15px;
+            width: 15px;
+            display: inline;
+            
+        }
+ #overviewQf .col-md-8 .star-rated {
+     margin-bottom: 0px;
+     font-size: 14px;
+    font-weight: 400;
+    /* line-height: 22.5px; */
+    color: #000;
+ }
+ #overviewQf .col-md-8 h2{
+     margin-top: 0px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+ }
+ #overviewQf .col-md-8 p .crosstext{
+    color: inherit;
+   font-size: 22px;
+   text-decoration: line-through;
+   
+}
+ #overviewQf .col-md-8 p .price {
+    
+   font-size: 30px;
+   color: red;
+   
+}
+#overviewQf .col-md-8 ul li{
+    color: #04d130;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+#overviewQf .col-md-8 .product-description{
+font-size: 20px;
+line-height: 30px;
+}
+
+#scrollToProduct {
+    background-color: #ce0000;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+
+#section2 {
+    
+ 
+    /* background-blend-mode: overlay; */
+   padding: 100px;
+   background-color: #fff;
+  position: relative;
+   
+}
+
+#section2 .s2-title {
+    font-family: 'Racing Sans One', cursive;
+  
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 80px;
+    opacity: 1;
+    color: #f36200;
+  
+}
+
+
+
+#section2 .s2-sub {
+    font-family: 'Racing Sans One', cursive;
+  
+    text-transform: uppercase;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000;
+    float: right;
+    
+}
+
+#section2 ul li {
+    font-family: 'Racing Sans One', cursive;
+  
+    text-transform: uppercase;
+    margin-top: 14px;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    list-style: none;
+}
+
+#section2 .row .col-md-6:nth-child(2){
+
+padding-top: 100px;
+}
+
+
+#section2 ul li::before {
+    content:"\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+    margin-left: -18px;
+    color: #f36200;
+}
+
+
+#section2 #s2c {
+    text-align: center;
+}
+
+#section2 #s2c h2{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    color: red;
+   
+}
+
+#section2 #s2c h3 {
+    font-size: 31px;
+    line-height: 31px;
+    font-weight: 900;
+    color: #000;
+   
+}
+
+#section2 #s2c p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000
+}
+
+
+#section2 #s2d {
+
+    padding: 10px 250px;
+}
+
+#section2 #s2d p {
+    text-align: center;
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px; 
+}
+
+#section3 {
+    
+    background-image: url("../img_assets/suppPics/good-bacteria.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  z-index: 3;
+   padding: 0px;
+   transform: skewY(3deg);
+  position: relative;
+ 
+}
+
+#section3 #overLay3 {
+   
+    background-color:#000;
+    opacity: .6;
+    height: 100%;
+   width: 100%;
+    position: absolute;
+   
+}
+#section3 #textOverlay3 {
+   
+    transform: skewY(-3deg);
+    opacity: 1;
+    position: relative;
+    padding: 70px 300px;
+}
+#section3 #textOverlay3 h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    
+}
+
+#section3 #textOverlay3 p {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align: center;
+   
+}
+
+
+
+#section4 {
+    z-index: 1;
+  padding: 50px 10px;
+   background-color: #fff;
+  
+   text-align: center;
+}
+#section4 #s4c {
+    width: 55%;
+}
+
+#section4 #s4c .col-md-5 {
+    padding-top: 50px;
+}
+#section4 h4 {
+    color: #000;
+font-size: 24px;
+font-weight: 900;
+line-height: 1;
+}
+
+
+#section4 p {
+    margin-top: 30px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#section4 h2 {
+    color: #000;
+font-size: 45px;
+font-weight: 600;
+line-height: 1;
+}
+
+#section5 {
+    background-image: url("../img_assets/suppPics/Queen-Biotics.jpg");
+    padding: 50px;
+    text-align: center;
+    background-position: center center;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+
+#section5 p {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#section6 {
+    background-color: #020437;
+    padding: 20px 100px;
+}
+
+#section6 h1 {
+    font-size: 34px;
+    color: #fff;
+    line-height: 49.5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#section7 {
+    
+   padding:50px 10px;
+   
+}
+
+
+#section7 h4 {
+    font-size: 31px;
+    line-height: 46.5px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+
+#section7 h2 {
+   
+    font-size: 43px;
+    line-height: 64.5px;
+    font-weight: 900;
+    color: #000;
+}
+
+#section7 .row {
+    margin-top: 50px;
+}
+#section7 p {
+    
+    color: #000;
+
+
+font-size: 20px;
+line-height: 30px;
+font-weight: 400;
+}
+
+#section7 #s7b {
+    width: 60%;
+    margin-top: 50px;
+}
+
+#section7 #s7b p{
+
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000;
+
+}
+
+#section7 #s7c {
+    width: 60%;
+    
+}
+
+#section7 #s7c p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000;
+
+}
+
+#section7 #s7b ol li{
+
+    font-size: 18px;
+    line-height: 27px;
+    
+    font-weight: 400;
+    color: #000;
+
+}
+
+#section7 .backup {
+    color: #f36200;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1;
+    
+}
+
+#section8 {
+    background-image: url("../img_assets/suppPics/bacteria-in-a-blue-background-3d-illustration-PRXXYT3-scaled.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+   padding: 0px;
+  
+  position: relative;
+}
+
+#section8 #overLay8 {
+    background-color: #fff;
+    opacity: .73;
+    height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+position: absolute;
+}
+
+#section8 #textOverlay8 {
+    padding: 50px 10px;
+   position: relative;
+}
+
+
+
+#section8 #textOverlay8 #s8a h2 {
+    font-size: 31px;
+    line-height: 46.5px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+#section8 .img-responsive {
+    height: 280px;
+    width: 300px;
+}
+#section8 #textOverlay8 #s8a .row {
+
+    margin-bottom: 30px;
+}
+#section8 p {
+    margin-top: 50px;
+    font-size: 20px;
+    color:#000;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#section9 {
+    
+  padding: 50px 10px;
+   
+}
+
+#section9 .container {
+    width: 60%;
+}
+
+#section9 h2 {
+    text-align: center;
+    color: #f36200;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+#section9 h4 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 46.5px;
+    text-align: center;
+    color:#000;
+}
+#section9 p {
+    text-align: center;
+color: #000;
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+}
+
+#section9 h5 {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700; 
+}
+
+#section9 ul li {
+    text-align: left;
+color: #000;
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+}
+
+
+
+
+
+#section10 {
+    background-image: url("../img_assets/suppPics/bikini2.webp");
+    background-size: 100%;
+    background-position: center center;
+   
+  
+    padding: 50px 10px;
+  
+  position: relative;
+  text-align: center;
+}
+#section10 #s10a {
+    width: 60%;
+}
+#section10 p {
+    font-size: 24px;
+    line-height: 31.5px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+
+#section11 {
+    
+    padding: 50px 10px; 
+   
+}
+
+#section11 #s11a {
+    width: 60%;
+}
+
+#section11 p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#section13 {
+    background-color: white;
+    text-align: center;
+}
+
+#section13 .container .row .col-md-4 {
+    padding: 20px;
+}
+#section13 .container .row .col-md-4 .pContainer {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    height: 520px;
+}
+
+#section13 .container .row .col-md-4:nth-child(1) .pContainer .img-responsive {
+ width: 300px;
+ height: 310px;
+  max-width: 100%;
+  margin: 0 auto;
+    
+}
+
+#section13 .container .row .col-md-4 .pContainer h2 {
+    font-size: 20px;
+    font-weight: 500;
+     line-height: 24px;
+     color: #000;
+}
+
+#section13 .container .row .col-md-4 .pContainer p {
+    font-size: 18px;
+    font-weight: 400;
+     line-height: 27px;
+     color: red;
+}
+
+#section13 .container .row .col-md-4 .pContainer .atc {
+    color: #fff;
+    background-color: #a70000;
+    font-size: 20px;
+    margin-top: 1em;
+    padding: .618em 1em;
+    font-weight: 700;
+
+}
+
+#section13 #mbGuarantee {
+    border-radius: 5px;
+    border: 5px solid #cda87a;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(85,7,180,1) 100%);
+}
+
+#section13 #mbGuarantee h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    
+    color: white;
+}
+#section13 #mbGuarantee p {
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 700;
+    color: #cda87a;
+}
+
+#section13 .col-md-8 {
+    padding: 30px;
+}
+#section13 .col-md-8 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  
+}

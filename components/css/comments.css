@@ -1,0 +1,149 @@
+
+#review-banner {
+	width: 70%;
+}
+
+
+#review-banner h1 {
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 5px;
+	font-weight: 700;
+
+}
+
+#review-banner .rev-col {
+   padding: 20px; 
+   text-align: center;
+}
+
+#review-banner .rev-col .rev-stars {
+	font-size: 2.6em; 
+ }
+
+ #review-banner .rev-col .rev-stars img {
+	position: relative;
+	top: -4px;
+	height: 24px;
+	width: 24px;
+ }
+ #rev-container{
+	width: 60%;
+	padding: 20px;
+	margin: auto;
+}
+ @media (min-width: 769px) and (max-width: 991px){
+	#review-banner {
+		width: 86%;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 480px){
+	#review-banner .rev-col {
+		padding: 14px; 
+		text-align: center;
+	 }
+
+	 #review-banner .rev-col .rev-stars {
+		font-size: 2em; 
+	 }
+}
+@media (min-width: 280px) and (max-width: 768px){
+	#rev-container{
+		width: 100%;
+	}
+
+	#review-banner {
+		width: 100%;
+	}
+}
+#rev-form {
+    display: none;
+    padding: 10px;
+}
+.star-rate {
+    margin-bottom: 12px;
+}
+#rev-success {
+    display: none;
+}
+.error-revs {
+    display: none;
+}
+.rev-write {
+    border: 1px solid #000;
+    color: #000;
+    margin-bottom: 12px;
+}
+textarea {
+    border-radius: 6px;
+    resize: none;
+    height: 70px;
+    width: 100%;
+}
+
+#user-rev-title {
+    width: 50%;
+}
+#review-section {
+    overflow: hidden;
+}
+#post-review {
+
+    margin-top: 8px;
+    padding: 10px 14px;
+}
+
+#product-reviews  {
+    overflow: hidden;
+}
+
+.rev-vote p {
+    text-align: right;
+}
+
+.rev-vote a {
+    color: inherit;
+}
+.rev-head {
+    width: 100%;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.liked  {
+    color: #00FFFF;
+}
+
+#rev-navi {
+    margin: auto;
+    text-align: center;
+}
+
+#rev-navi .rev-page.active a{
+    font-weight: 600;
+}
+
+/* #rev-navi .rev-page{
+    padding: 14px;
+} */
+
+.rev-section {
+    margin-bottom: 10px;
+}
+
+.rev-person-name {
+    font-family: 'Rubik', sans-serif;
+    columns: #000;
+    font-size: 1.4em;
+}
+
+.rev-date {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.rev-title img {
+    position: relative;
+    top: -4px;
+}

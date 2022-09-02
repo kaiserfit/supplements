@@ -1,0 +1,728 @@
+body {
+    background-color: #d9d9d9;
+}
+#overviewQf {
+    border: 1px solid #7c009e;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:  white;
+}
+
+#overviewQf .col-md-4 {
+text-align: center;
+}
+
+#overviewQf  #mainProduct img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    #overviewQf  #mainProduct #p-details-main {
+        padding: 20px;
+
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details {
+        cursor: pointer;
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(1) {
+        background-image:url("http://localhost/supplements/kaiser-burner/components/images/1-bottle.webp");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(2) {
+        background-image:url("http://localhost/supplements/components/img_assets/product_details/qf-2.png");
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+    #overviewQf .row:nth-child(1) #mainProduct:nth-child(1) #p-details-main .p-details:nth-child(3) {
+        background-image:url("http://localhost/supplements/kaiser-burner/components/img_assets/product_details/qf-3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.3s ease;
+       
+    }
+
+    #overviewQf  #mainProduct #p-details-main .p-details:hover {
+        background-color: #7f7f7f;
+        background-blend-mode: soft-light;
+    }
+
+   
+    /* #overviewQf  #mainProduct:nth-child(1) #p-details-main:nth-child(2) .p-details {
+        background-image:url("http://localhost/supplements/kaiser-burner/components/img_assets/product_details/qf-2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     */
+    #overviewQf  #mainProduct .p-details img {
+        opacity: 0;
+         cursor: pointer;
+       
+       /* transition: 0.3s ease; */
+      
+              }
+            
+    /* #overviewQf  #mainProduct .p-details img:hover {
+        background-color: #000;
+        opacity: .5;
+        background-blend-mode: overlay;
+        } */
+
+        #overviewQf .col-md-8 .star-rated img {
+            position: relative;
+            top: -3px;
+            height: 15px;
+            width: 15px;
+            display: inline;
+            
+        }
+ #overviewQf .col-md-8 .star-rated {
+     margin-bottom: 0px;
+     font-size: 14px;
+    font-weight: 400;
+    /* line-height: 22.5px; */
+    color: #000;
+ }
+ #overviewQf .col-md-8 h2{
+     margin-top: 0px;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+ }
+ #overviewQf .col-md-8 p .crosstext{
+    color: inherit;
+   font-size: 22px;
+   text-decoration: line-through;
+   
+}
+ #overviewQf .col-md-8 p .price {
+    
+   font-size: 30px;
+   color: red;
+   
+}
+#overviewQf .col-md-8 ul li{
+    color: #04d130;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+#overviewQf .col-md-8 .product-description{
+font-size: 20px;
+line-height: 30px;
+}
+
+#scrollToProduct {
+    background-color: #ce0000;
+    padding: 10px 50px;
+    color: #fff;
+}
+#test {
+    background-color: white;
+    position: relative;
+    height: auto;
+    font-family: 'Racing Sans One', cursive;
+    height: 250px;
+    padding: 0px 100px;
+    line-height: 1;
+}
+
+#test h1 {
+    font-size: 100px;
+    color: #A30000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#test h3 {
+    font-size: 46px;
+    color: black;
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+#test2 {
+    height: 400px;
+    background-color: #1b252f;
+    /* top: -50px; */
+    position: relative;
+    z-index: 3;
+}
+
+
+#test2::before {
+    content: "";
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1b252f;
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+
+#test2 .container {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    width: 70%;
+}
+#test2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 49.5px;
+    color: #fff;
+    z-index: 3;
+
+}
+#qfbanner {
+    border-bottom: 4px solid #ffde01;
+}
+#test2 h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffde01;
+    line-height: 36px;
+}
+
+#test2 p {
+font-size: 18px;
+line-height: 27px;
+color: #fff;
+}
+/* #test2::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -53px;
+    right: 0;
+    background: green;
+    transform: skewY(5deg);
+} */
+
+#pic4 .col-md-3 {
+
+    padding: 10px;
+}
+
+#pic4 .col-md-3 .img-responsive {
+
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+#qfCarousel {
+
+padding: 20px;
+}
+
+#section3 {
+    padding-top: 50px;
+}
+#section3 .col-md-4.img-row {
+    text-align: right;
+    padding-top: 2rem;
+}
+#section3 .col-md-4.img-row img {
+    height: 360px;
+    width: 360px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#section3 .col-md-8 p{
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+#section3 .col-md-8 p b { 
+font-weight: 700;
+}
+#section3 .col-md-8 p strong { 
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+#yellowC {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    background-color: #ffde01;
+    padding: 20px;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+box-shadow: 0px 0px 15px 0px #000000;
+}
+
+#yellowC p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 14px;
+    
+}
+
+#section4 {
+    margin-top: 24px;
+    background-image: url("http://localhost/supplements/components/img_assets/suppPics/bikini2.webp");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+    z-index: 5;
+    transform: skewY(3deg);
+}
+
+#section4 h2 {
+    transform: skewY(-3deg);
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 31.5px;
+   
+}
+
+#section5 {
+    background-color: white;
+    padding-top: 55px;
+    position: relative;
+    top: -40px;
+    z-index: -1;
+    
+}
+#section5 .s5c {
+    width: 60%;
+   
+}
+
+#section5 .s5c h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 34.5px;
+    color: #000;
+}
+
+#section5 .s5c h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 34.5px;
+    color: #000;
+    text-align: center;
+}
+#section5 .s5c p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#section5 .s5c p .glyphicon-ok {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#section5 .row .col-md-6 {
+   
+    padding: 5px 20px;
+    
+}
+
+#section5 .row .col-md-6 p{
+    color: #000;
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border: 1px solid black;
+    padding: 50px;
+    white-space: normal;
+}
+
+#section6 {
+width: 60%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#section6 h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#section6 p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#section7 {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    padding: 40px 250px;
+    background-color: white;
+   
+}
+
+#section7 #overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("http://localhost/supplements/components/img_assets/resized/Transformation-Background-darker.jpg");
+    background-size: 100%;
+     /* background-blend-mode:lighten;  */
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+
+}
+
+#section7 h5 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #bfbfbf;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#section7 h4 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #000;
+}
+
+#section7 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+
+#section8 {
+    background-image: url("http://localhost/supplements/components/img_assets/suppPics/lose-weight.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: #1b252f;
+    background-repeat: no-repeat;
+    padding-bottom: 10px !important;
+    padding-top: 0px !important;
+}
+
+#section8 h2 {
+    font-size: 46px;
+    color: white;
+    line-height: 69px;
+    font-weight: 700;
+}
+#section8 #s8c .img-responsive{
+display: none;
+}
+#section8 #s8c .redBox .col-md-4 img {
+    position: relative;
+    top: -160px;
+    right: -50px;
+    margin-right: 0px;    
+    height: 480px;
+    width: 824px;
+    max-width: 100%; 
+}
+#section8 #s8c .redBox .col-md-4 {
+    height: 320px;
+}
+#section8 #s8c .redBox {
+    height: 650px;
+    /* background-color: #cc0e0e; */
+    background-color: rgba(204,14,14, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+
+
+#section8 #s8c .redBox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+}
+#section9 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+#section9 #s9a {
+  
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section9 .s9 {
+    width: 57%;
+    text-align: center;
+    margin: 0 auto;
+}
+#section9 .s9 h1 {
+    line-height: 1;
+    font-size: 64px; 
+    font-weight: 600;
+    color: black;
+}
+
+#section9 .s9 p {
+    text-align: center;
+   
+    line-height: 27px;
+    font-size: 18px; 
+    font-weight: 400;
+    color: black;
+   
+}
+
+#section9 .col-md-4 {
+    padding: 15px;
+    
+}
+
+#section9 .col-md-4 .row-content {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,.31);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,.31);
+    padding: 20px;
+    height: 604px;
+}
+
+#section9 .col-md-4 .row-content:hover {
+    -webkit-box-shadow: 0px 0px 55px 0px rgba(0,0,0,.31);
+    box-shadow: 0px 0px 55px 0px rgba(0,0,0,.31);
+ 
+}
+
+#section10 {
+    background: #1b252f;
+    border-top: 4px solid #ffde01;
+    border-bottom: 4px solid #ffde01;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#section10 #s10 {
+    width: 68%;
+}
+
+#section10 p strong {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 43.5px;
+    color: white;
+}
+
+#section10 p {
+    color: #ffde01;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#ing {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+#ing h2 {
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+
+#ing h1 {
+    font-size: 34px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+}
+
+#ingredients .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ingredients .row .col-md-3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#ingredients .row .col-md-3 img{
+    margin: 0 auto;
+    height: 240px;
+    width: 270px;
+    border-radius: 4px;
+}
+#ingredients .row .col-md-3 p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000;
+}
+#ingredients ul li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+}
+#ingredients ul li::before {
+       
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+   font-size: 24px;
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+        color: #ca0404;
+        
+    
+}
+
+#ingredients h1 {
+    font-size: 2.6em;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #000;
+}
+
+#section12 {
+    
+    background-image: url("http://localhost/supplements/components/img_assets/suppPics/bikini2.webp");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+    z-index: 5;
+   
+}
+
+#section12 h2 {
+   
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 31.5px;
+   
+}
+
+#section13 {
+    background-color: white;
+    text-align: center;
+}
+
+#section13 .container .row .col-md-4 {
+    padding: 20px;
+}
+#section13 .container .row .col-md-4 .pContainer {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    height: 520px;
+}
+
+
+#section13 .container .row .col-md-4 .pContainer h2 {
+    font-size: 20px;
+    font-weight: 500;
+     line-height: 24px;
+     color: #000;
+}
+
+#section13 .container .row .col-md-4 .pContainer p {
+    font-size: 18px;
+    font-weight: 400;
+     line-height: 27px;
+     color: red;
+}
+
+#section13 .container .row .col-md-4 .pContainer .atc {
+    color: #fff;
+    background-color: #a70000;
+    font-size: 20px;
+    margin-top: 1em;
+    padding: .618em 1em;
+    font-weight: 700;
+
+}
+
+#section13 #mbGuarantee {
+    border-radius: 5px;
+    border: 5px solid #cda87a;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(85,7,180,1) 100%);
+}
+
+#section13 #mbGuarantee h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    
+    color: white;
+}
+#section13 #mbGuarantee p {
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 700;
+    color: #cda87a;
+}
+
+#section13 .col-md-8 {
+    padding: 30px;
+}
+#section13 .col-md-8 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  
+}
+
+#slidex {
+    display: none;
+}
+#slidex img {
+    margin: auto;
+}
+

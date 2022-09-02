@@ -1,0 +1,209 @@
+@media (min-width: 260px) and (max-width: 991px) {
+
+    #overviewQf  #mainProduct #p-details-main {
+        display: none;
+
+    }
+
+    #section2 #textOverlay {
+        padding: 50px 0px;
+    }
+   
+    #section2 #textOverlay h1{
+        font-size: 31px;
+        line-height: 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #section2 #textOverlay h2{
+        font-size: 55px;
+        line-height: 44px;
+        font-weight: 400;
+        text-align: center;
+        float: none;
+    }
+
+
+    #section3 h2 {
+      
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    #section3 ul li {
+       
+        font-size: 12px;
+        line-height: 18px;
+      
+       
+    }
+
+    #section4 #text4Overlay #s4c1 {
+        width: 100%;
+    }
+    #s4title, #s4title2 {
+      
+        padding-top: 5px;
+    }
+    #s4title2 h1 { 
+        font-size: 16px;
+        line-height: 1;
+         }
+
+         #s4title h1 {
+            font-size: 16px;
+            line-height: 1;
+        }
+
+         #s4c1 #pHolder {
+            padding: 5px;
+        }
+        #s4c1 p {     
+            font-size: 17px;
+            line-height: 1;
+        }
+
+        #section4 #text4Overlay #s4c2 {
+        width: 95%
+        }
+
+
+
+        #section5 {
+          
+            padding: 30px 10px;
+           
+        }
+
+        #section5 h1 {
+          
+            font-size: 20px;
+           
+            
+        }
+
+
+   
+  
+
+    #section6 {
+      padding: 20px 0px;
+           
+        }
+
+        #section6 h1 {
+            
+            font-size: 17px;
+            line-height: 25.5px;
+            font-weight: 700;
+           
+        }
+
+        #text7Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+        #text8Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+        #text9Overlay .col-md-6 h2 {    
+            font-size: 19px;
+        }
+
+        #section7 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+        #section8 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+        #section9 p {
+            font-size: 15px;
+            line-height: 1.4em;               
+        }
+
+        #section7 .col-md-8 {
+            padding-right: 10px;
+        }
+        #section8 .col-md-8 {
+            padding-left: 10px;
+        }
+        #section9 .col-md-8 {
+            padding-right: 10px;
+        }
+
+        #section10 {
+            padding: 0px;
+        }
+        #section10 #s10 h2 {
+           
+            font-size: 25px;
+            font-weight: 900;
+           line-height: 1;
+        }
+
+        #section10 #s10 .col-md-7 h1 {
+            font-size: 20px;
+            line-height: 30px;
+           
+        }
+
+        #section10 #s10 .col-md-5 {
+            padding-top: 50px;
+    }
+    #s11c {
+        width: 100%;
+      
+    }
+    #s11title h1 {
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 500;
+       
+        
+    }
+
+    #s11c #p11 {
+        padding: 10px;
+    }
+    #s11c p {
+      
+        font-size: 16px;
+       
+        line-height: 1.4em;
+    }
+
+    #s11title2 h1 { 
+        font-size: 16px;
+      
+        line-height: 1;
+      
+    }
+         
+    
+    .y-border {
+        width: 100%;
+    }
+
+    .y-border h4 {
+        font-size: 14px;
+        line-height: 20px;
+        
+    }
+
+    .y-border p {
+       
+        font-size: 14px;
+        line-height: 1.4em;
+        
+    }
+           
+            #section13 .container .row .col-md-4 .pContainer {
+               
+                height: auto;
+            }
+   
+}

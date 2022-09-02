@@ -1,0 +1,148 @@
+@media (max-width: 1179px) {
+    #phoneNum {
+        font-size: 15px;
+        
+    }
+}
+
+@media (min-width: 520px) and (max-width: 1131px) {
+    #qnbBox .col-md-3 {
+        width: 75%;
+     margin: 0 auto !important;
+     margin-bottom: 20px !important;
+        height:auto;
+    }
+}
+
+@media (max-width: 519px) {
+    #qnbBox .col-md-3 {
+        width: 90%;
+     margin: 0 auto !important;
+     margin-bottom: 20px !important;
+        height:auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .jeanna, .linda, .tess, .marina, .faith, .nikita {
+        background-size: 120%;
+    }
+
+    #tPics .col-md-4:hover {
+   
+        background-size: 150%;
+      
+    }
+}
+@media (min-width: 260px) and (max-width: 991px) {
+
+    #modCart {
+        padding-top: 20%;
+    }
+    #modCart #modbox {
+        width: 100%;
+        
+      }
+
+      .cart-img {
+        float: left;
+        height: 40px;
+        width: 55px;
+        margin-right: 20px;
+      }
+    #testimonialBox .col-md-3 img {
+            height: auto !important;
+    }
+    #p1 {
+        display: block;
+    }
+    #p2 {
+        display: none;
+    }
+    #cards {
+       width: 100%;
+       text-align: center;
+    }
+    
+    #qfBox .col-md-6.desc{
+        padding-top: 30px;
+        text-align: center;
+        
+    }
+    .black-bg-3 {
+        width: 100%;
+    }
+   
+    #qfBox .col-md-6.desc h2{
+        text-align: center;
+    }
+    #qnbBox .col-md-6.desc{
+        padding-top: 30px;
+        text-align: center;
+    }
+    /* #qnbBox .col-md-3 {
+        width: 90%;
+       margin: 0 auto !important;
+        margin-bottom: 20px !important;
+        height:auto;
+    } */
+    .qLogo {
+        display: none;
+    }
+    .textLogo {
+        display: block;
+    }
+    #tPics .col-md-4 { 
+        width: 100%;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+        
+    }
+
+    #tPics .col-md-4:hover {
+   
+        background-size: 170%;
+      
+    }
+
+    #tPics .col { 
+        width: 100%;
+    }
+
+  #contact {
+      padding-top: 20px;
+  }
+  #loginHolder {
+      text-align: center;
+  }
+ .black-bg {
+     width: 90%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+ }
+ .black-bg img {
+     top: -2px;
+    height: 13px;
+    width: 13px;
+ }
+ .black-bg p {
+     font-size: 11px;
+ }
+
+ .white-bg {
+    width: 95%;
+    padding: 5px 5px 5px 5px;
+}
+.white-bg p {
+    font-size: 26px;
+}
+.black-bg-2 {
+    width: 90%;
+   padding:0px;
+}
+
+.black-bg-2 p {
+    font-size: 24px;
+}
+
+}

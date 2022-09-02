@@ -1,0 +1,132 @@
+.course-overview {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.course-overview h1 {
+    
+    text-align: left;
+}
+
+.course-overview h2 {
+  
+    font-family: 'Fredoka One', cursive;
+}
+
+.course-overview .fre {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.course-overview .row-title {
+    text-align: center;
+    font-size: 2.2em;
+   
+    font-weight: 600;
+
+}
+
+.course-overview .row-sub {
+    text-align: center;
+    font-size: 1.8em;
+   
+    font-weight: 600;
+
+}
+
+.course-overview .fre-one {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.course-overview .fre-two {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: underline;
+
+}
+.course-overview p {
+    font-size: 1.4em;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+}
+
+.course-overview li {
+    font-size: 1.4em;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    color: red;
+    margin-bottom: 14px;
+}
+
+#lesson-stat {
+    background-color: #d3d3d3;
+    border-radius: 6px;
+    padding: 14px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#lesson-stat .col-md-4:nth-child(2) {
+    border-right: 2px solid #777;
+    border-left: 2px solid #777;
+}
+#lesson-stat h4 {
+    font-weight: 700;
+    color: #000;
+}
+#lesson-stat p {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.course-overview .ctc {
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.course-overview .title-normal {
+    font-size: 2.4em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+}
+
+.course-overview #mmcol .list-group-item {
+    color: #000;
+    font-weight: 600;
+}
+
+.course-overview #mmcol-2 .list-group-item {
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .course-overview {
+        width: 100%;
+     }
+
+     .course-overview .fre-one {
+      
+        font-size: 1.2em;
+       
+    
+    }
+}

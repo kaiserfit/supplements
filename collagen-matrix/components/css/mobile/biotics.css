@@ -1,0 +1,177 @@
+@media (min-width: 260px) and (max-width: 991px) {
+
+    #overviewQf  #mainProduct #p-details-main {
+        display: none;
+
+    }
+
+    #section2 {
+        padding: 10px;
+    }
+    #section2 .s2-title {
+        font-size: 37px;
+        line-height: 0.8em;
+        text-align: center;
+    }
+    #section2 .s2-sub {
+        font-size: 30px;
+        line-height: 0.8em;
+        float: none;
+        text-align: center;
+    }
+
+    #section2 ul li {
+        font-size: 18px;
+    }
+
+    #section2 #s2c p {
+        font-size: 16px;
+    }
+
+    #section2 #s2c h3 {
+        font-size: 25px;
+      
+       
+    }
+
+    #section2 #s2d {
+
+        padding: 10px;
+    }
+
+    #section2 #s2d p { 
+        font-size: 16px;
+    }
+    #section3 {
+    
+       
+       
+       transform: skewY(0deg);
+   
+     
+    }
+
+    #section3 #textOverlay3 {
+   
+        transform: skewY(0deg);
+        opacity: 1;
+        position: relative;
+        padding: 10px;
+    }
+
+    #section3 #textOverlay3 h4 {
+        
+        font-size: 19px;
+       
+        
+    }
+
+    #section3 #textOverlay3 p {
+      
+        font-size: 16px;
+        
+       
+    }
+
+
+ #section4 #s4c {
+     width: 100%;
+ }
+
+ #section4 h4 {
+    
+font-size: 19px;
+
+}
+
+#section4 h2 {
+  
+    font-size: 22px;
+   
+}
+
+
+#section5 {
+    padding: 10px;
+   background-color: #f36302;
+   background-image: unset;
+}
+      
+#section7 h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#section7 h2 {
+    font-size: 28px;
+}
+     
+#section7 #s7b {
+    width: 100%;
+    margin-top: 30px;
+}    
+
+#section7 .backup { 
+    font-size: 25px;
+}
+
+#section7 #s7c {
+    width: 100%;
+   
+}    
+
+
+#section8 #textOverlay8 #s8a h2 {
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+#section8 .img-responsive {
+    height: 250px;
+    width: 250px;
+}
+        
+
+#section9 .container {
+    width: 100%;
+}
+
+#section9 h2 {
+    font-size: 23px;
+}  
+  
+
+#section9 h4 {
+    font-size: 18px;
+    line-height: 26px;
+}
+       
+
+#section10 {
+    
+    background-size: cover;
+    background-position: center center;
+   
+  
+    padding: 50px 10px;
+  
+  position: relative;
+}
+
+#section10 #s10a {
+    width: 100%;
+}
+#section11 #s11a {
+    width: 100%;
+}
+         
+    
+   
+           
+            #section13 .container .row .col-md-4 .pContainer {
+               
+                height: auto;
+            }
+   
+}

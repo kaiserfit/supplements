@@ -1,0 +1,24 @@
+body {
+    padding: 20px;
+}
+
+#loginBox {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#loginBox h4 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+
+
+.shipDiv {
+    display: none;
+}
